@@ -1,0 +1,74 @@
+
+<!--Do not repeat id's on the same page-->
+<!--Good practice to have id's and then add a class to the id
+<div id="Main-Header" class="card"> (where card is astyle) 
+more later
+
+ctrl D to grab 2 div's, say and change to span
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Div, Span, Id, Class</title>
+
+  <style>
+    .card{
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .enhance{
+      color: yellow;
+      background-color: black;
+    }
+  </style>
+
+</header> 
+
+
+<body> 
+  <!--Give the div a class attribute for the header-->
+  <div id="Main-Header" class= "card"> 
+    <h1>My Website or Logo</h1>
+    <p>A site about me</p>
+
+  
+ 
+  </div>
+     <!--Give the UL a class attribute for the list items-->
+   <ul id="main-nav">
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+
+ 
+  <!--Shortcut div#about then enter (no '<' before the div) can be used for h1 etc-->
+  <!--Shortcut for divs specifically just #about then enter (no '<' before the div)-->
+  <div id="about">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit <span class="enhance">amet consectetur adipisicing elit. Repudiandae aliquid,</div> enim perferendis illo saepe beatae officia illum quasi, dolor maxime repellat inventore tempora laboriosam repellendus quibusdam dolorum voluptatum incidunt? Id, rerum! Praesentium voluptatum tempore at eius voluptates nesciunt veniam omnis provident quos.</p>
+  </div>
+  
+<div id="contact">
+  <h3>Contact me</h3>
+  <ul>
+    <li>Address: my address details</li>
+    <li>Phone: my phone no</li>
+    <li>Email:myEmail@email.com</li>
+  </ul>
+</div>
+<div id="idfooter">
+  <p>Copy right 2019</p>
+</div>
+
+</div>
+
+</body>
+</html>

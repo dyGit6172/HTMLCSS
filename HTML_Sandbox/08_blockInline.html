@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline vs Block</title>
+</head>
+<body>s 
+  <!--paragraph is a block level element because it pushes onto next line-->
+  <!--adding border which also wraps the 'block'-->
+  <!--Strong also is in-line-->
+  <p style="border:2px green solid"> Lorem ipsum dolor sit, <strong>consectetur adipisicing elit.</strong>  Voluptatem deserunt totam nesciunt harum itaque minima. Laudantium, eius cumque facilis maxime sunt dignissimos optio, nesciunt esse quasi error aperiam repellat deleniti.</p>
+  <p style="border:2px green solid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, provident. Optio consequuntur accusamus accusantium in nemo cupiditate unde earum? Vero!</p>
+
+  <!--href is an inline element because it does not push onto next line-->
+  <!--adding border which only wraps the 'in-line elemnet'-->
+  <a style="border:2px red solid">href="#">link to local dir</a>
+  <a style="border:2px red solid">href="#">link to local dir</a>
+
+  <!--lists are a block level element because it pushes onto next line-->
+  <ul>
+    <li>list1</li>
+    <li>list2</li>
+  </ul>
+</body>
+</html>
